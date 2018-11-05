@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d8953e5-67c3-4b19-942e-06921b8f00e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PL_Project2.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -69,12 +68,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1428" />
+          <entry key="cpp" value="1480" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1428" />
+          <entry key="ObjectiveC" value="1480" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -92,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1058">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="34">
+              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -124,7 +123,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="38" />
     <option name="y" value="23" />
     <option name="width" value="1882" />
@@ -186,12 +185,12 @@
       <workItem from="1540770932532" duration="734000" />
       <workItem from="1540866505934" duration="2487000" />
       <workItem from="1541309358226" duration="7029000" />
-      <workItem from="1541370829818" duration="7406000" />
+      <workItem from="1541370829818" duration="8357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33116000" />
+    <option name="totallyTimeSpent" value="34067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,7 +202,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1882" height="1019" extended-state="0" />
+    <frame x="38" y="23" width="1882" height="1019" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23858696" />
@@ -211,14 +210,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945652" visible="true" weight="0.3656958" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945652" weight="0.3656958" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49891305" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49945652" weight="0.3279396" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49945652" weight="0.32901832" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49945652" visible="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50108695" side_tool="true" weight="0.399137" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32901832" />
@@ -240,8 +239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1058">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="34">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

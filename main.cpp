@@ -33,6 +33,7 @@ int main() {
     stripSpace(set_a, p);
     insertionSort(word_count, set_one);
     markDuplicates(word_count, set_one);
+    //this is the set one we will be working with
     int fin_size_a = countUnique(word_count, set_one);
     int final_s1[fin_size_a];
     int inner = 0;
@@ -51,6 +52,7 @@ int main() {
     stripSpace(set_b, q);
     insertionSort(word_count_two, set_two);
     markDuplicates(word_count_two, set_two);
+    //this is the set two we will be working with
     int fin_size_b = countUnique(word_count_two, set_two);
     int final_s2[fin_size_b];
     int inner_b = 0;
