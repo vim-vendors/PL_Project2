@@ -39,38 +39,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jfernandez/CLionProjects/SetProject
+CMAKE_SOURCE_DIR = /Users/jerryfernandez/CLionProjects/PL_Project2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jfernandez/CLionProjects/SetProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jerryfernandez/CLionProjects/PL_Project2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jfernandez/CLionProjects/SetProject/cmake-build-debug/CMakeFiles /home/jfernandez/CLionProjects/SetProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jerryfernandez/CLionProjects/PL_Project2/cmake-build-debug/CMakeFiles /Users/jerryfernandez/CLionProjects/PL_Project2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jfernandez/CLionProjects/SetProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jerryfernandez/CLionProjects/PL_Project2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SetProject
+# Target rules for targets named PL_Project2
 
 # Build rule for target.
-SetProject: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SetProject
-.PHONY : SetProject
+PL_Project2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PL_Project2
+.PHONY : PL_Project2
 
 # fast build rule for target.
-SetProject/fast:
-	$(MAKE) -f CMakeFiles/SetProject.dir/build.make CMakeFiles/SetProject.dir/build
-.PHONY : SetProject/fast
+PL_Project2/fast:
+	$(MAKE) -f CMakeFiles/PL_Project2.dir/build.make CMakeFiles/PL_Project2.dir/build
+.PHONY : PL_Project2/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/SetProject.dir/build.make CMakeFiles/SetProject.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/PL_Project2.dir/build.make CMakeFiles/PL_Project2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/SetProject.dir/build.make CMakeFiles/SetProject.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/PL_Project2.dir/build.make CMakeFiles/PL_Project2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/SetProject.dir/build.make CMakeFiles/SetProject.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/PL_Project2.dir/build.make CMakeFiles/PL_Project2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -156,9 +156,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SetProject"
+	@echo "... edit_cache"
+	@echo "... PL_Project2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
